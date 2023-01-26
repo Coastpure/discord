@@ -9,11 +9,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="flex bg-[#393943] h-screen">
+    <div className="flex bg-[#393943] h-full">
       {/* Friends & Groups */}
       <Groups />
       {/* Discover */}
-      <Discover />
+      {/* <Discover /> */}
       {/* Main Component */}
       < MainComponent />
         {/* Hero */}
