@@ -31,6 +31,30 @@ const Featured = () => {
         title: "Fire Emblem Heroes", 
         description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
         size: <p> 85,532 Online &#8226; 234,986 Members</p>},
+      {
+        bg: picture1,
+        profile: picture2, 
+        title: "Fire Emblem Heroes", 
+        description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
+        size: <p> 85,532 Online &#8226; 234,986 Members</p>},
+      {
+        bg: picture1,
+        profile: picture2, 
+        title: "Fire Emblem Heroes", 
+        description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
+        size: <p> 85,532 Online &#8226; 234,986 Members</p>},
+      {
+        bg: picture1,
+        profile: picture2, 
+        title: "Fire Emblem Heroes", 
+        description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
+        size: <p> 85,532 Online &#8226; 234,986 Members</p>},
+      {
+        bg: picture1,
+        profile: picture2, 
+        title: "Fire Emblem Heroes", 
+        description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
+        size: <p> 85,532 Online &#8226; 234,986 Members</p>},
 
       ]
   return (
@@ -42,9 +66,11 @@ const Featured = () => {
       </div>
 
       {/* Cards */}
-    <div className="grid grid-cols-1 xs:grid-cols-2 lmd:grid-cols-3 xl:grid-cols-4 gap-y-6 xs:gap-x-2 sm:gap-x-4 mb-4 ">
+    <div className="grid grid-cols-1 xs:grid-cols-2 lmd:grid-cols-3 gap-y-6 xs:gap-x-2 sm:gap-x-4 mb-4 ">
       {cards.map((card) => <Card 
-       bg={card.bg} profile={card.profile}  title={card.title} description={card.description} size={card.size} />)}
+       bg={card.bg} profile={card.profile}  title={card.title} description={card.description} size={card.size} 
+       key={card.description}
+       />)}
     </div>
 
     </div>

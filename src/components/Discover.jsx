@@ -2,7 +2,7 @@ import React from 'react'
 
 const Discover = () => {
   return (
-    <div className='hidden sm:flex bg-[#303136]'>Discover</div>
+    <div className='hidden xl:flex bg-[#303136] w-[18rem] shrink-0'>Discover</div>
   )
 }
 
