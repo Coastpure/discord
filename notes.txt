@@ -27,3 +27,14 @@ theme: { screens: {
   },
     extend: {},
   },
+
+
+  how to reduce brightess of an image 
+
+  brightness-75   or   brightness-[80%]
+
+  to make part of a screen not scroll
+
+  sticky top-0 
+
+  3:05:00

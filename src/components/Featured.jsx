@@ -1,6 +1,10 @@
 import React from 'react'
 import picture2 from '../photos/lmfao.jpg'
 import picture1 from '../photos/background2.jpg'
+import bg1 from '../photos/bg01.jpg'
+import bg2 from '../photos/bg02.jpg'
+import bg3 from '../photos/bg03.jpg'
+import bg4 from '../photos/bg04.jpg'
 import Card from './Card'
 
 const Featured = () => {
@@ -13,14 +17,26 @@ const Featured = () => {
         size: <p> 85,532 Online &#8226; 234,986 Members</p>},
 
       {
-        bg: picture1,
+        bg: bg1,
         profile: picture2, 
         title: "Fire Emblem Heroes", 
         description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
         size: <p> 85,532 Online &#8226; 234,986 Members</p>},
 
       {
-        bg: picture1,
+        bg: bg2,
+        profile: picture2, 
+        title: "Fire Emblem Heroes", 
+        description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
+        size: <p> 85,532 Online &#8226; 234,986 Members</p>},
+      {
+        bg: bg3,
+        profile: picture2, 
+        title: "Fire Emblem Heroes", 
+        description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
+        size: <p> 85,532 Online &#8226; 234,986 Members</p>},
+      {
+        bg: bg4,
         profile: picture2, 
         title: "Fire Emblem Heroes", 
         description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
@@ -32,29 +48,23 @@ const Featured = () => {
         description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
         size: <p> 85,532 Online &#8226; 234,986 Members</p>},
       {
-        bg: picture1,
+        bg: bg1,
         profile: picture2, 
         title: "Fire Emblem Heroes", 
         description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
         size: <p> 85,532 Online &#8226; 234,986 Members</p>},
       {
-        bg: picture1,
+        bg: bg2,
         profile: picture2, 
         title: "Fire Emblem Heroes", 
         description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
         size: <p> 85,532 Online &#8226; 234,986 Members</p>},
-      {
-        bg: picture1,
-        profile: picture2, 
-        title: "Fire Emblem Heroes", 
-        description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
-        size: <p> 85,532 Online &#8226; 234,986 Members</p>},
-      {
-        bg: picture1,
-        profile: picture2, 
-        title: "Fire Emblem Heroes", 
-        description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
-        size: <p> 85,532 Online &#8226; 234,986 Members</p>},
+        {
+          bg: bg3,
+          profile: picture2, 
+          title: "Fire Emblem Heroes", 
+          description: "We are a community for Fire Emblem Heroes. Enjoy lore, get help and FE fandom", 
+          size: <p> 85,532 Online &#8226; 234,986 Members</p>}
 
       ]
   return (
