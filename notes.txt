@@ -33,8 +33,16 @@ theme: { screens: {
 
   brightness-75   or   brightness-[80%]
 
+
   to make part of a screen not scroll
 
-  sticky top-0 
+  sticky top-0  and h-screen before them
 
-  3:05:00
+
+to make bg remain after clkicking on something, use focus:    same way we use hover: 
+but it has to be a button for it to work
+
+
+reduce opacity of text with text-white/60
+
+3:45:00
